@@ -57,10 +57,10 @@ This document provides evidence of VPN usage and IP address verification before 
 
 Folder Structure
 ---------------
-**<pre>Task-3-VPN-and-IP-Verification/
+**<pre>Task-3-VPN-and-IP-Verification/**
 ├── README.md
 └── ScreenShots/
-    ├── screenshots.png</pre>**
+    ├── screenshots.png</pre>
 
 ## Conclusion
 The VPN successfully masked the original IP address by assigning a Netherlands-based IP. SSL certificate verification ensured secure communication between the client and server.
