@@ -25,5 +25,35 @@ This document provides evidence of VPN usage and IP address verification before 
 - Detected IPv6: **2401:4900:78fe:64f0:69a2:9484:609b:3848**
 - Detected IPv4: **106.194.78.xxx** (original ISP location).
 
+### 5. Confirm VPN is masking location
+- Location changed from India to Netherlands when VPN was active.
+- This confirms VPN successfully hides original IP.
+
+### 6. Disconnect VPN & compare browsing speed and IP
+- Browsing speed was slightly faster without VPN due to no encryption overhead.
+- IP reverted to the original Indian IP when VPN was disconnected.
+
+### 7. Research VPN encryption and privacy features
+- Proton VPN uses AES-256 encryption for OpenVPN protocol and ChaCha20 for WireGuard.
+- Provides features like:
+  * No-logs policy
+  * DNS leak protection
+  * Kill Switch to block traffic if VPN disconnects
+  * Secure Core servers for extra privacy
+
+### 8. Summary – VPN Benefits & Limitations
+
+Benefits:
+- Hides real IP and location
+- Encrypts internet traffic, enhancing privacy
+- Protects data on public Wi-Fi
+- Helps bypass geo-restrictions
+
+Limitations:
+- Slightly reduces internet speed
+- Free VPN servers may have limited bandwidth
+- Some websites may block VPN traffic
+
+
 ## Conclusion
 The VPN successfully masked the original IP address by assigning a Netherlands-based IP. SSL certificate verification ensured secure communication between the client and server.
