@@ -22,7 +22,7 @@ This document provides evidence of VPN usage and IP address verification before 
 
 ### 4. IP Verification Without VPN
 - Disconnected VPN and checked IP again.
-- Detected IPv6: **2401:4900:78fe:64f0:69a2:9484:609b:3848**
+- Detected IPv6: **2401:4900:78fe:64f0:69a2:9484:609b:38xx**
 - Detected IPv4: **106.194.78.xxx** (original ISP location).
 
 ### 5. Confirm VPN is masking location
@@ -43,13 +43,13 @@ This document provides evidence of VPN usage and IP address verification before 
 
 ### 8. Summary – VPN Benefits & Limitations
 
-Benefits:
+**Benefits:**
 - Hides real IP and location
 - Encrypts internet traffic, enhancing privacy
 - Protects data on public Wi-Fi
 - Helps bypass geo-restrictions
 
-Limitations:
+**Limitations:**
 - Slightly reduces internet speed
 - Free VPN servers may have limited bandwidth
 - Some websites may block VPN traffic
