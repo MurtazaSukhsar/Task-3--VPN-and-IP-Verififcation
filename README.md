@@ -55,5 +55,12 @@ This document provides evidence of VPN usage and IP address verification before 
 - Some websites may block VPN traffic
 
 
+Folder Structure
+---------------
+Task-3-VPN-and-IP-Verification/
+├── README.md
+└── ScreenShots/
+    ├── screenshots.png  
+
 ## Conclusion
 The VPN successfully masked the original IP address by assigning a Netherlands-based IP. SSL certificate verification ensured secure communication between the client and server.
